@@ -1,0 +1,205 @@
+﻿@model List<Ban_Hang_Dien_Tu_CNWeb.Models.CartItem>
+@{
+    ViewBag.Title = "Payment";
+    Layout = "~/Views/Shared/Client_Layout.cshtml";
+     double totalprice = 0;
+}
+
+
+<!--Shopping Cart Area Strat-->
+<div class="Shopping-cart-area pt-60 pb-60">
+    @if (Model.Count > 0)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#">
+                        <div class="table-content table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="li-product-remove">remove</th>
+
+                                        <th class="li-product-thumbnail">images</th>
+                                        <th class="cart-product-name">Product</th>
+                                        <th class="li-product-price">Unit Price</th>
+                                        <th class="li-product-quantity">Quantity</th>
+                                        <th class="li-product-subtotal">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ 
+                                           
+                                            foreach (var item in Model)
+                                            {
+                                        <tr>
+                                            <td class="li-product-remove"><a href="#" data-id="@item.Product.id" class="btn-delete"><i class="fa fa-times"></i></a></td>
+                                            <td class="li-product-thumbnail"><a href="#"><img src="~/Images/@item.Product.image" alt="Li's Product Image"></a></td>
+                                            <td class="li-product-name"><a href="#">@item.Product.name</a></td>
+                                            <td class="li-product-price"><span class="amount">$@item.Product.price.GetValueOrDefault(0).ToString("N0")</span></td>
+                                            <td class="quantity">
+                                                <label>Quantity</label>
+                                                <div class="cart-plus-minus">
+                                                    <input class="cart-plus-minus-box txtQuantity" data-id="@item.Product.id" value="@item.Quantity" type="text">
+                                                    <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
+                                                    <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                </div>
+                                            </td>
+                                            <td class="product-subtotal"><span class="amount">@((item.Product.price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</span></td>
+                                        </tr>
+
+                                            totalprice += item.Quantity * item.Product.price.GetValueOrDefault(0);
+                                            }
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="coupon-all">
+
+                                    <div class="coupon2">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5 ml-auto">
+                                <div class="cart-page-total">
+                                    <h2>Cart totals</h2>
+                                    <ul>
+                                        <form action="/Cart/Payment" method="post">
+                                            <li>Subtotal <span id="totalprice">@totalprice.ToString()</span></li>
+                                        </form>
+                                       
+                                       
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+
+
+</div>
+
+<!--Checkout Area Strat-->
+<div class="checkout-area pt-60 pb-30">
+    <form action="~/Cart/Payment" method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+
+                    <div class="checkbox-form">
+                        <h3>Billing Details</h3>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="checkout-form-list">
+                                    <label>Full Name <span class="required">*</span></label>
+                                    <input placeholder="" type="text" name="shipName">
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class="checkout-form-list">
+                                    <label>Address <span class="required">*</span></label>
+                                    <input placeholder="" type="text" name="address">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="checkout-form-list">
+                                    <label>Email Address <span class="required">*</span></label>
+                                    <input placeholder="" type="email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="checkout-form-list">
+                                    <label>Phone  <span class="required">*</span></label>
+                                    <input type="text" name="mobile">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                            </div>
+                        </div>
+
+                    </div>
+    
+</div>
+            <div class="col-lg-6 col-12">
+                <div class="your-order">
+                    
+                    <div class="payment-method">
+                        <div class="payment-accordion">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="#payment-1">
+                                        <h5 class="panel-title">
+                                            <a class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Direct Bank Transfer.
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="#payment-2">
+                                        <h5 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Cheque Payment
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="#payment-3">
+                                        <h5 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                PayPal
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input name="totalprice" type="text" value="@totalprice" style="visibility:hidden"/>
+                            <div class="order-button-payment">
+                                <input value="Place order" type="submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </form>
+</div>
+<!--Checkout Area End-->
+<!--Shopping Cart Area End-->

@@ -1,0 +1,3 @@
+Để vào trang Admin (thêm sửa xóa ) : truy nhập mục Account ở thanh topbar và nhập tài khoản - mật khẩu : admin - 123
+Hiển thị và thực hiện tìm kiếm ở trang Shop trên thành Topbar
+công việc hoàn thành : Thêm sửa xóa,hiển thị,tìm kiếm,giỏ hàng,đăng nhập vào trang admin để thêm sửa xóa

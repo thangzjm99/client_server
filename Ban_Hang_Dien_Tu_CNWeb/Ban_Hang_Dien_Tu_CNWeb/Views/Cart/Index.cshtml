@@ -1,0 +1,99 @@
+﻿@model List<Ban_Hang_Dien_Tu_CNWeb.Models.CartItem>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Client_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/Content/Client_Template/js/controller/cartController.js"></script>
+}
+
+
+<!--Shopping Cart Area Strat-->
+<div class="Shopping-cart-area pt-60 pb-60">
+    @if (Model.Count > 0)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#">
+                        <div class="table-content table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="li-product-remove">remove</th>
+
+                                        <th class="li-product-thumbnail">images</th>
+                                        <th class="cart-product-name">Product</th>
+                                        <th class="li-product-price">Unit Price</th>
+                                        <th class="li-product-quantity">Quantity</th>
+                                        <th class="li-product-subtotal">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ 
+                                            double totalprice = 0;
+                                            foreach (var item in Model)
+                                            {
+
+                                        <tr>
+                                            <td class="li-product-remove"><a href="#" data-id="@item.Product.id" class="btn-delete"><i class="fa fa-times"></i></a></td>
+                                            <td class="li-product-thumbnail"><a href="#"><img src="~/Images/@item.Product.image" alt="Li's Product Image"></a></td>
+                                            <td class="li-product-name"><a href="#">@item.Product.name</a></td>
+                                            <td class="li-product-price"><span class="amount">$@item.Product.price.GetValueOrDefault(0).ToString("N0")</span></td>
+                                            <td class="quantity">
+                                                <label>Quantity</label>
+                                                <div class="cart-plus-minus">
+                                                    <input class="cart-plus-minus-box txtQuantity" data-id="@item.Product.id" value="@item.Quantity" type="text">
+                                                    <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
+                                                    <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                </div>
+                                            </td>
+                                            <td class="product-subtotal"><span class="amount">@((item.Product.price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</span></td>
+                                        </tr>
+
+                                            totalprice += item.Quantity * item.Product.price.GetValueOrDefault(0);
+                                        }
+                                        }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="coupon-all">
+                                   
+                                    <div class="coupon2">
+                                        <input type="button" class="button" id="btnContinue" value="Continue Shopping">
+                                        <input type="button" class="button" id="btnDeleteAll" value="Delete Cart">
+                                        <input type="button" class="button" id="btnUpdate" value="Update Cart">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5 ml-auto">
+                                <div class="cart-page-total">
+                                    
+                                    <ul>
+                                        <li>Subtotal <span>@totalprice.ToString()</span></li>
+                                        
+                                    </ul>
+                                    <a href="#" id="btnPayment">Proceed to checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+
+            <h1 class="alert alert-danger" style="text-align : center"> This cart is empty</h1>
+       
+    }
+
+</div>
+<!--Shopping Cart Area End-->

@@ -1,0 +1,495 @@
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+C:\Users\Zjm\source\repos\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CoreCompileInputs.cache
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CoreCompileInputs.cache
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\This PC\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+E:\USER\CNWEB\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Ban_Hang_Dien_Tu_CNWeb.pdb
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.exe.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csc.rsp
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.exe.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\csi.rsp
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.AppContext.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Console.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Globalization.Calendars.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Http.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Net.Sockets.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.ValueTuple.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.exe.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\vbc.rsp
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\WebGrease.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\EntityFramework.SqlServer.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Helpers.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Mvc.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Optimization.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.Razor.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Deployment.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\System.Web.WebPages.Razor.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Newtonsoft.Json.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Antlr3.Runtime.pdb
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CoreCompileInputs.cache
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csproj.CopyComplete
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.dll
+E:\USER\CNWEB\he\CNWEB\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.pdb
+C:\Users\Zjm\Desktop\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
+C:\Users\Zjm\Documents\GitHub\CNWEB2\Ban_Hang_Dien_Tu_CNWeb\Ban_Hang_Dien_Tu_CNWeb\obj\Debug\Ban_Hang_Dien_Tu_CNWeb.csprojAssemblyReference.cache
