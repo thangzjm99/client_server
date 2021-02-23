@@ -1,4 +1,5 @@
-﻿using Ban_Hang_Dien_Tu_CNWeb.DAO;
+﻿using Ban_Hang_Dien_Tu_CNWeb.Common;
+using Ban_Hang_Dien_Tu_CNWeb.DAO;
 using Ban_Hang_Dien_Tu_CNWeb.Models;
 using Microsoft.Ajax.Utilities;
 using System;
@@ -113,7 +114,21 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers.Client
         [HttpGet]
         public ActionResult Payment()
         {
+            var usersession = (UserLogin)Session[Ban_Hang_Dien_Tu_CNWeb.Common.CommonConstants.USER_SESSION];
+            if(usersession==null)
+            {
+               
 
+            }
+            else
+            {
+                Customer customer = db.Customers.Find(usersession.UserID);
+                ViewBag.UserName = customer.name;
+                ViewBag.UserPhone = customer.phone;
+                ViewBag.UserAddress = customer.address;
+                ViewBag.UserEmail = customer.email;
+
+            }
             var cart = Session[CartSession];
             var list = new List<CartItem>();
             if (cart != null)
@@ -130,16 +145,23 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers.Client
         {
             double totalprice = Convert.ToDouble( Request.Form["totalprice"]) ;
             var order = new Order();
+            var usersession = (UserLogin)Session[Ban_Hang_Dien_Tu_CNWeb.Common.CommonConstants.USER_SESSION];
+            if (usersession == null)
+            {
+
+
+            }
+            else
+            {
+                Customer customer = db.Customers.Find(usersession.UserID);
+                order.customer_id = customer.id;
+            }    
             order.created_at = DateTime.Now;
             order.address = address;
             order.email = email;
             order.code = shipName;
             order.phone = mobile;
             order.total_price = totalprice ;
-            
-            
-
-
             try
             {
                
