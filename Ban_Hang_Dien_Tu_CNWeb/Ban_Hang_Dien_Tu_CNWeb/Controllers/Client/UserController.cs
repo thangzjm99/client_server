@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Windows;
 using Ban_Hang_Dien_Tu_CNWeb.Common;
 using Ban_Hang_Dien_Tu_CNWeb.DAO;
 using Ban_Hang_Dien_Tu_CNWeb.Models;
@@ -10,6 +11,7 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
 {
     public class UserController : Controller
     {
+        private ModelDbContext db = new ModelDbContext();
         // GET: User
         [HttpGet]
         public ActionResult Register()
@@ -115,7 +117,71 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
                 return View(model);
             
         }
-
        
+        public ActionResult ChangeUserInformation(long? id)
+        {
+            var usersession = (UserLogin)Session[Ban_Hang_Dien_Tu_CNWeb.Common.CommonConstants.USER_SESSION];
+            Customer customer = db.Customers.Find(usersession.UserID);
+            ViewBag.Password = customer.password;
+            ViewBag.Name = customer.name;
+            ViewBag.Address = customer.address;
+            ViewBag.Phone = customer.phone;
+            ViewBag.Email = customer.email;
+            return View();
+        }
+        [HttpPost]
+        public ActionResult ChangeUserInformation()
+        {
+            var usersession = (UserLogin)Session[Ban_Hang_Dien_Tu_CNWeb.Common.CommonConstants.USER_SESSION];
+            Customer customer = db.Customers.Find(usersession.UserID);
+            ViewBag.Password = customer.password;
+            ViewBag.Name = customer.name;
+            ViewBag.Address = customer.address;
+            ViewBag.Phone = customer.phone;
+            ViewBag.Email = customer.email;
+            int error ;
+            string password = Request.Form["Password"];
+            string confirmpassword = Request.Form["ConfirmPassword"];
+            string name = Request.Form["NameUser"];
+            string address = Request.Form["Address"];
+            string phone =Request.Form["Phone"];
+            string email = Request.Form["Email"];
+            if( password==null && confirmpassword==null)
+            {
+                customer.name = name;
+                customer.address = address;
+                customer.phone = phone;
+                customer.email = email;
+                ViewBag.Success = "Changed Successfully";
+                db.SaveChanges();
+                return View();
+            }    
+            else if ((password != confirmpassword) || confirmpassword==null || password==null )
+            {
+                MessageBox.Show("Please check your password and confirm your password");
+                error = -1;
+                return View();
+            }
+            else if(Common.Encryptor.MD5Hash(password) == customer.password)
+            {
+                MessageBox.Show("Your new password is similar as your old password ");
+                return View() ;
+          
+            }
+            else 
+            {
+                customer.password = Common.Encryptor.MD5Hash(password);
+                customer.name = name;
+                customer.address = address;
+                customer.phone = phone;
+                customer.email = email;
+                db.SaveChanges();
+                ViewBag.Success = "Changed Successfully";
+                return View();
+            }
+            
+
+            
+        }
     }
 }

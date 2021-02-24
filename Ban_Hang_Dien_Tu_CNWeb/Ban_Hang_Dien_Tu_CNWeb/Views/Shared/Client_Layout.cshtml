@@ -88,6 +88,8 @@
                                                     <li><a href="/dang-ky">Sign Up</a></li>
 
                                                     <li><a href="/dang-nhap">Sign In</a></li>
+
+
                                                 </ul>
                                             </div>
                                         </li>
@@ -97,6 +99,7 @@
                                         <ul>
                                             <li>Welcome,@session.UserName</li>
                                             <li>@Html.ActionLink("Log out","Logout","User")</li>
+                                            <li>@Html.ActionLink("Change Information","ChangeUserInformation","User")</li>
                                         </ul>
                                     }
                                     <!-- Setting Area End Here -->
