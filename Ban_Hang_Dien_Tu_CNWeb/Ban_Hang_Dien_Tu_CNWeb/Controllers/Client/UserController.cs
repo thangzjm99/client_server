@@ -139,14 +139,14 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
             ViewBag.Address = customer.address;
             ViewBag.Phone = customer.phone;
             ViewBag.Email = customer.email;
-            int error ;
-            string password = Request.Form["Password"];
-            string confirmpassword = Request.Form["ConfirmPassword"];
+            
+            string password = Request.Form["Password"].ToString();
+            string confirmpassword = Request.Form["ConfirmPassword"].ToString();
             string name = Request.Form["NameUser"];
             string address = Request.Form["Address"];
             string phone =Request.Form["Phone"];
             string email = Request.Form["Email"];
-            if( password==null && confirmpassword==null)
+            if( password == "" && confirmpassword == "")
             {
                 customer.name = name;
                 customer.address = address;
@@ -156,10 +156,10 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
                 db.SaveChanges();
                 return View();
             }    
-            else if ((password != confirmpassword) || confirmpassword==null || password==null )
+            else if ((password != confirmpassword) || confirmpassword=="" || password=="" )
             {
                 MessageBox.Show("Please check your password and confirm your password");
-                error = -1;
+                
                 return View();
             }
             else if(Common.Encryptor.MD5Hash(password) == customer.password)
