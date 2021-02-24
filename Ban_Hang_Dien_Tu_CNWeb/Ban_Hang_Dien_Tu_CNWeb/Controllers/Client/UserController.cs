@@ -34,7 +34,7 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
             if(ModelState.IsValid)
             {
                 var dao = new UserDao();
-                var result = dao.Login(model.username, model.password);
+                var result = dao.Login(model.username,Common.Encryptor.MD5Hash(model.password));
                 if (result == 1)
                 {
                     var user = dao.GetById(model.username);
@@ -90,7 +90,7 @@ namespace Ban_Hang_Dien_Tu_CNWeb.Controllers
                     var user = new Customer();
                     user.name = model.name;
                     user.username = model.username;
-                    user.password = model.password;
+                    user.password = Common.Encryptor.MD5Hash(model.password);
                     user.phone = model.phone;
                     user.email = model.email;
                     user.address = model.address;
