@@ -13,7 +13,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Category.name)
+            @Html.DisplayNameFor(model => model.Category.code)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.code)
@@ -81,7 +81,7 @@
             @Html.DisplayFor(modelItem => item.overview)
         </td>
         <td>
-            <img src="~/Images/@item.image" style="max-width : 300px" />
+            <img src="~/Images/@item.image" style="width : 300px"/>
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.description)

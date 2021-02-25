@@ -75,16 +75,15 @@ namespace BanDoNoiThat.DAO
         {
             var result = db.Customers.SingleOrDefault(x => x.username == username);
             
-           if(result.password==password && result.is_admin==1)
+           if(result==null)
             {
-                return -4;
-
+                return 0;
             }
             else 
             {
-                if (result == null)
+                if (result.password == password && result.is_admin == 1)
                 {
-                    return 0;
+                    return -4;
                 }
                 else
                 {

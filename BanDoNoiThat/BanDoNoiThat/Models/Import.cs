@@ -9,7 +9,6 @@ namespace BanDoNoiThat.Models
     [Table("Import")]
     public partial class Import
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long id { get; set; }
 
         public long? id_product { get; set; }

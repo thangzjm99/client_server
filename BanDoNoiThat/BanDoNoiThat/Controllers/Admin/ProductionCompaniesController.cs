@@ -51,6 +51,7 @@ namespace BanDoNoiThat.Controllers.Admin
             if (ModelState.IsValid)
             {
                 db.ProductionCompanies.Add(productionCompany);
+               
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

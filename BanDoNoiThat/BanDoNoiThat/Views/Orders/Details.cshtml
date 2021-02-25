@@ -112,7 +112,7 @@
                 @item.Product.name
             </td>
             <td>
-                <img src="~/Images/@item.Product.image" style="max-width : 300px"/>
+                <img src="~/Images/@item.Product.image" />
             </td>
 
             <td>
@@ -126,7 +126,6 @@
     }
 
 </table>
-
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
     @Html.ActionLink("Back to List", "Index")

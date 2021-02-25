@@ -13,19 +13,19 @@
 <table class="table">
     <tr>
         <th>
-            Customer Full Name
+            @Html.DisplayNameFor(model => model.Order.customer_name)
         </th>
         <th>
-            Product Name
+            @Html.DisplayNameFor(model => model.Product.code)
         </th>
         <th>
-            Amount
+            @Html.DisplayNameFor(model => model.amount)
         </th>
         <th>
-            Total Price
+            @Html.DisplayNameFor(model => model.total_price)
         </th>
         <th>
-            Created At
+            @Html.DisplayNameFor(model => model.created_at)
         </th>
         <th></th>
     </tr>
@@ -36,7 +36,7 @@
             @Html.DisplayFor(modelItem => item.Order.customer_name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Product.name)
+            @Html.DisplayFor(modelItem => item.Product.code)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.amount)

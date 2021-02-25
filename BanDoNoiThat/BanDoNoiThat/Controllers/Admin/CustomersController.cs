@@ -51,6 +51,7 @@ namespace BanDoNoiThat.Controllers.Admin
             if (ModelState.IsValid)
             {
                 db.Customers.Add(customer);
+                customer.created_at = DateTime.Now;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

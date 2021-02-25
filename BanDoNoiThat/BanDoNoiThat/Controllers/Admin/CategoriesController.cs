@@ -51,6 +51,7 @@ namespace BanDoNoiThat.Controllers.Admin
             if (ModelState.IsValid)
             {
                 db.Categories.Add(category);
+                category.created_at = DateTime.Now;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

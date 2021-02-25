@@ -170,11 +170,13 @@ namespace BanDoNoiThat.Controllers
             }
             else
             {
+                
                 customer.password = Common.Encryptor.MD5Hash(password);
                 customer.name = name;
                 customer.address = address;
                 customer.phone = phone;
                 customer.email = email;
+
                 db.SaveChanges();
                 ViewBag.Success = "Changed Successfully";
                 return View();

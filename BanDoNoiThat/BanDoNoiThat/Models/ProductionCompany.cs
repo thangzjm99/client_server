@@ -15,7 +15,6 @@ namespace BanDoNoiThat.Models
             Imports = new HashSet<Import>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long id { get; set; }
 
         [StringLength(225)]
