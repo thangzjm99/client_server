@@ -1,0 +1,83 @@
+﻿@model BanDoNoiThat.Models.Customer
+@{
+    ViewBag.Title = "ChangeUserInformation";
+    Layout = "~/Views/Shared/Client_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="" align="center">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Customer Information</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @if (ViewBag.Success != null)
+                {
+                    <div class="alert alert-success">@ViewBag.Success</div>
+                }
+
+
+                <div class="form-group">
+                    <label for="Password" class="control-label col-md-2">Password</label>
+                    <div class="col-md-6">
+                        <input type="password" name="Password" class="form-control" />
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="ConfirmPassword" class="control-label col-md-2">Confirm Password</label>
+                    <div class="col-md-6">
+                        <input type="password" name="ConfirmPassword" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="NameUser" class="control-label col-md-2">Full Name</label>
+                    <div class="col-md-6">
+                        <input type="text" name="NameUser" class="form-control" value="@ViewBag.Name" required="" oninvalid="this.setCustomValidity('Please Enter Your Name')" />
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <label for="Address" class="control-label col-md-2">Address</label>
+                    <div class="col-md-6">
+                        <input type="text" name="Address" class="form-control" value="@ViewBag.Address" required="" oninvalid="this.setCustomValidity('Please Enter Address')" />
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <label for="Email" class="control-label col-md-2">Email</label>
+                    <div class="col-md-6">
+                        <input type="email" name="Email" class="form-control" value="@ViewBag.Email" required="" oninvalid="this.setCustomValidity('Please Enter email')" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Phone" class="control-label col-md-2">Phone</label>
+                    <div class="col-md-6">
+                        <input type="number" name="Phone" class="form-control" value="@ViewBag.Phone" required="" oninvalid="this.setCustomValidity('Please Enter Phone ')" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-3">
+                        <input type="submit" value="Change Confirm" class="btn btn-danger" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+</div>
+

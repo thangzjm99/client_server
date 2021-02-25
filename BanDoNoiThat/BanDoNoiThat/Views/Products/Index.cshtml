@@ -1,0 +1,124 @@
+﻿@model IEnumerable<BanDoNoiThat.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.slug)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.overview)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.detail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.unit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.remain_quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.star)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_stock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created_at)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.slug)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.overview)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.image)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.detail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.unit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.remain_quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sale)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.star)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.is_stock)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.is_active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.created_at)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
