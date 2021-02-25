@@ -39,7 +39,7 @@ namespace BanDoNoiThat.Controllers.Admin
         // GET: Imports/Create
         public ActionResult Create()
         {
-            ViewBag.id_product = new SelectList(db.Products, "id", "code");
+            ViewBag.id_product = new SelectList(db.Products, "id", "name");
             ViewBag.id_productionCompany = new SelectList(db.ProductionCompanies, "id", "name");
             return View();
         }
@@ -51,14 +51,19 @@ namespace BanDoNoiThat.Controllers.Admin
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "id,id_product,id_productionCompany,import_price,quantity,created_at")] Import import)
         {
+         
             if (ModelState.IsValid)
             {
+                
+                Product product = db.Products.Find(import.id_product);
+                product.remain_quantity += Convert.ToInt32(import.quantity);
                 db.Imports.Add(import);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
-            ViewBag.id_product = new SelectList(db.Products, "id", "code", import.id_product);
+            
+            
+            ViewBag.id_product = new SelectList(db.Products, "id", "name", import.id_product);
             ViewBag.id_productionCompany = new SelectList(db.ProductionCompanies, "id", "name", import.id_productionCompany);
             return View(import);
         }
@@ -75,7 +80,7 @@ namespace BanDoNoiThat.Controllers.Admin
             {
                 return HttpNotFound();
             }
-            ViewBag.id_product = new SelectList(db.Products, "id", "code", import.id_product);
+            ViewBag.id_product = new SelectList(db.Products, "id", "name", import.id_product);
             ViewBag.id_productionCompany = new SelectList(db.ProductionCompanies, "id", "name", import.id_productionCompany);
             return View(import);
         }
@@ -93,7 +98,7 @@ namespace BanDoNoiThat.Controllers.Admin
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.id_product = new SelectList(db.Products, "id", "code", import.id_product);
+            ViewBag.id_product = new SelectList(db.Products, "id", "name", import.id_product);
             ViewBag.id_productionCompany = new SelectList(db.ProductionCompanies, "id", "name", import.id_productionCompany);
             return View(import);
         }

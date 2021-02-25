@@ -13,7 +13,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Category.code)
+            @Html.DisplayNameFor(model => model.Category.name)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.code)
@@ -66,7 +66,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Category.code)
+            @Html.DisplayFor(modelItem => item.Category.name)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.code)
@@ -81,7 +81,7 @@
             @Html.DisplayFor(modelItem => item.overview)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.image)
+            <img src="~/Images/@item.image" style="max-width : 300px" />
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.description)

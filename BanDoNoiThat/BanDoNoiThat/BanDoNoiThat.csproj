@@ -2221,11 +2221,6 @@
     <Content Include="Views\Products\Details.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
-    <Content Include="Views\ProductionCompanies\Create.cshtml" />
-    <Content Include="Views\ProductionCompanies\Delete.cshtml" />
-    <Content Include="Views\ProductionCompanies\Details.cshtml" />
-    <Content Include="Views\ProductionCompanies\Edit.cshtml" />
-    <Content Include="Views\ProductionCompanies\Index.cshtml" />
     <Content Include="Views\Page\Index.cshtml" />
     <Content Include="Views\Page\Category.cshtml" />
     <Content Include="Views\Page\ProductDeTail.cshtml" />
@@ -2236,6 +2231,11 @@
     <Content Include="Views\User\Register.cshtml" />
     <Content Include="Views\User\ChangeUserInformation.cshtml" />
     <Content Include="Views\Cart\Success.cshtml" />
+    <Content Include="Views\ProductionCompanies\Create.cshtml" />
+    <Content Include="Views\ProductionCompanies\Delete.cshtml" />
+    <Content Include="Views\ProductionCompanies\Details.cshtml" />
+    <Content Include="Views\ProductionCompanies\Edit.cshtml" />
+    <Content Include="Views\ProductionCompanies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
