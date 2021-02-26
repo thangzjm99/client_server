@@ -55,6 +55,16 @@ namespace BanDoNoiThat.Controllers.Admin
             {
                 db.Imports.Add(import);
                 import.created_at = DateTime.Now;
+                Product product = db.Products.Find(import.id_product);
+                if(product.remain_quantity==null || product.remain_quantity==0)
+                {
+                    product.remain_quantity = Convert.ToInt32(import.quantity);
+                }
+                else
+                {
+                    product.remain_quantity += Convert.ToInt32(import.quantity);
+                }
+                
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

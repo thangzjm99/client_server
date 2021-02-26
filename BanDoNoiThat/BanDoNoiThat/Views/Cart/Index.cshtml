@@ -1,7 +1,9 @@
-﻿@model List<BanDoNoiThat.Models.CartItem>
+﻿@using BanDoNoiThat.Models
+@model List<BanDoNoiThat.Models.CartItem>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Client_Layout.cshtml";
+    var products = (List<Product>)ViewBag.Product; 
 }
 @section jsFooter{
     <script src="/Content/Client_Template/js/controller/cartController.js"></script>
@@ -10,13 +12,19 @@
 
 <!--Shopping Cart Area Strat-->
 <div class="Shopping-cart-area pt-60 pb-60">
+
     @if (Model.Count > 0)
     {
+       
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <form action="#">
                         <div class="table-content table-responsive">
+                            @if (ViewBag.ErrorMessage != null)
+                            {
+                                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+                            }
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -41,7 +49,15 @@
                                                 <td class="li-product-name"><a href="#">@item.Product.name</a></td>
                                                 <td class="li-product-price"><span class="amount">$@item.Product.price.GetValueOrDefault(0).ToString("N0")</span></td>
                                                 <td class="quantity">
-                                                    <label>Quantity</label>
+                                                    @foreach (var product in products)
+                                                    {
+                                                        if (@product.id == @item.Product.id)
+                                                        {
+                                                            <label>Quantity(@product.remain_quantity remain)</label>
+                                                        }
+                                                    }
+
+
                                                     <div class="cart-plus-minus">
                                                         <input class="cart-plus-minus-box txtQuantity" data-id="@item.Product.id" value="@item.Quantity" type="text">
                                                         <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
@@ -50,6 +66,8 @@
                                                 </td>
                                                 <td class="product-subtotal"><span class="amount">@((item.Product.price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</span></td>
                                             </tr>
+
+
 
                                             totalprice += item.Quantity * item.Product.price.GetValueOrDefault(0);
                                         }

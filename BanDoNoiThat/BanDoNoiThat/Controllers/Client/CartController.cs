@@ -8,6 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
+using System.Windows;
 
 namespace BanDoNoiThat.Controllers.Client
 {
@@ -16,7 +17,7 @@ namespace BanDoNoiThat.Controllers.Client
         Model1 db = new Model1();
         private const string CartSession = "CartSession";
         // GET: Cart
-        public ActionResult Index()
+        public ActionResult Index(string error_message)
         {
             var cart = Session[CartSession];
             var list = new List<CartItem>();
@@ -25,6 +26,8 @@ namespace BanDoNoiThat.Controllers.Client
                 list = (List<CartItem>)cart;
 
             }
+            ViewBag.Product = db.Products.ToList();
+            ViewBag.ErrorMessage = error_message;
             return View(list);
         }
 
@@ -134,8 +137,23 @@ namespace BanDoNoiThat.Controllers.Client
             if (cart != null)
             {
                 list = (List<CartItem>)cart;
+                foreach(var item in list)
+                {
+                    var remain_quantity = db.Products.Find(item.Product.id).remain_quantity;
+                    if (item.Quantity <= remain_quantity)
+                    {
+                    }
+                    else
+                    {
+                        //MessageBox.Show("Please do not exceed the remaining quantity");
+                        
+                        return RedirectToAction("Index","Cart",new { error_message = "Please do not exceed the remaining quantity" });
+
+                    }
+                }    
 
             }
+            
             return View(list);
 
         }
@@ -170,14 +188,36 @@ namespace BanDoNoiThat.Controllers.Client
                 var detailDao = new OrderDetailDao();
                 foreach (var item in cart)
                 {
-                    var orderDetail = new Order_detail();
+                    var remain_quantity = db.Products.Find(item.Product.id).remain_quantity;
+                    if (item.Quantity <= remain_quantity)
+                    {
 
-                    orderDetail.product_id = item.Product.id;
-                    orderDetail.order_id = id;
-                    orderDetail.total_price = item.Product.price;
-                    orderDetail.amount = item.Quantity;
-                    detailDao.Insert(orderDetail);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please do not exceed the remaining quantity");
+                        return RedirectToAction("Index");
+                        
+                    }
+                }
 
+                foreach (var item in cart)
+                {
+                    
+                    var remain_quantity = db.Products.Find(item.Product.id).remain_quantity;
+                    if(item.Quantity <= remain_quantity)
+                    {
+                        var orderDetail = new Order_detail();
+                        orderDetail.product_id = item.Product.id;
+                        orderDetail.order_id = id;
+                        orderDetail.total_price = item.Product.price;
+                        orderDetail.amount = item.Quantity;
+                        detailDao.Insert(orderDetail);
+                        db.Products.Find(item.Product.id).remain_quantity -= item.Quantity;
+                        db.SaveChanges();
+                    }
+                    
+                  
 
                 }
 
