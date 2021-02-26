@@ -140,6 +140,7 @@
     <Compile Include="Controllers\Admin\Order_detailController.cs" />
     <Compile Include="Controllers\Admin\ProductionCompaniesController.cs" />
     <Compile Include="Controllers\Admin\ProductsController.cs" />
+    <Compile Include="Controllers\Admin\ReportController.cs" />
     <Compile Include="Controllers\Client\CartController.cs" />
     <Compile Include="Controllers\Client\PageController.cs" />
     <Compile Include="Controllers\Client\UserController.cs" />
@@ -2236,6 +2237,7 @@
     <Content Include="Views\Order_detail\Details.cshtml" />
     <Content Include="Views\Order_detail\Edit.cshtml" />
     <Content Include="Views\Order_detail\Index.cshtml" />
+    <Content Include="Views\Report\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
