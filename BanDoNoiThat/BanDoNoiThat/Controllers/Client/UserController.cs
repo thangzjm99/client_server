@@ -27,6 +27,7 @@ namespace BanDoNoiThat.Controllers
         public ActionResult Logout()
         {
             Session[CommonConstants.USER_SESSION] = null;
+            Session[CommonConstants.CartSession] = null;
             return Redirect("~/Page/Product");
         }
 

@@ -24,7 +24,6 @@ namespace BanDoNoiThat.Controllers.Client
             if (cart != null)
             {
                 list = (List<CartItem>)cart;
-
             }
             ViewBag.Product = db.Products.ToList();
             ViewBag.ErrorMessage = error_message;
