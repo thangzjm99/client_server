@@ -46,6 +46,48 @@ namespace BanDoNoiThat.DAO
         {
             return db.Products.Find(id);
         }
+
+        public List<ReportAll> Report_all()
+        {
+            var result = from Product in db.Products
+                         from a in (
+                             (from Order_detail in db.Order_detail
+                              group Order_detail by new
+                              {
+                                  Order_detail.product_id
+                              } into g
+                              select new
+                              {
+                                  g.Key.product_id,
+                                  sell_amount = g.Sum(p => p.amount),
+                                  sell_price = (double?)g.Sum(p => p.total_price)
+                              }))
+                         from b in (
+                             (from Import in db.Imports
+                              group Import by new
+                              {
+                                  Import.id_product
+                              } into g
+                              select new
+                              {
+                                  g.Key.id_product,
+                                  import_quantity = g.Sum(p => p.quantity),
+                                  import_price = (double?)g.Sum(p => p.import_price * (double)p.quantity)
+                              }))
+                         where
+                           Product.id == a.product_id &&
+                           Product.id == b.id_product
+                         select new ReportAll
+                         {
+                             code = Product.code,
+                             name = Product.name,
+                             sell_amount = a.sell_amount,
+                             sell_price = a.sell_price,
+                             import_quantity = b.import_quantity,
+                             import_price = b.import_price
+                         };
+            return result.ToList();
+        }
     }
 
 }
