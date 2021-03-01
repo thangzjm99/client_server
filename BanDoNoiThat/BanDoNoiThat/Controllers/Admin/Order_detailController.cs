@@ -40,7 +40,7 @@ namespace BanDoNoiThat.Controllers.Admin
         public ActionResult Create()
         {
             ViewBag.order_id = new SelectList(db.Orders, "id", "customer_name");
-            ViewBag.product_id = new SelectList(db.Products, "id", "code");
+            ViewBag.product_id = new SelectList(db.Products, "id", "name");
             return View();
         }
 
@@ -59,7 +59,7 @@ namespace BanDoNoiThat.Controllers.Admin
             }
 
             ViewBag.order_id = new SelectList(db.Orders, "id", "customer_name", order_detail.order_id);
-            ViewBag.product_id = new SelectList(db.Products, "id", "code", order_detail.product_id);
+            ViewBag.product_id = new SelectList(db.Products, "id", "name", order_detail.product_id);
             return View(order_detail);
         }
 
@@ -76,7 +76,7 @@ namespace BanDoNoiThat.Controllers.Admin
                 return HttpNotFound();
             }
             ViewBag.order_id = new SelectList(db.Orders, "id", "customer_name", order_detail.order_id);
-            ViewBag.product_id = new SelectList(db.Products, "id", "code", order_detail.product_id);
+            ViewBag.product_id = new SelectList(db.Products, "id", "name", order_detail.product_id);
             return View(order_detail);
         }
 
@@ -94,7 +94,7 @@ namespace BanDoNoiThat.Controllers.Admin
                 return RedirectToAction("Index");
             }
             ViewBag.order_id = new SelectList(db.Orders, "id", "customer_name", order_detail.order_id);
-            ViewBag.product_id = new SelectList(db.Products, "id", "code", order_detail.product_id);
+            ViewBag.product_id = new SelectList(db.Products, "id", "name", order_detail.product_id);
             return View(order_detail);
         }
 

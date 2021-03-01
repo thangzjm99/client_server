@@ -155,7 +155,7 @@ namespace BanDoNoiThat.Controllers.Client
         public ActionResult Product(string searchKey, string searchBy)
         {
 
-            var products = dbModel.Products.Include(x => x.Category);
+            var products = dbModel.Products.Include(x => x.Category).OrderByDescending(a=>a.created_at);
             if (!String.IsNullOrEmpty(searchKey))
             {
                 if (searchBy == "all")
