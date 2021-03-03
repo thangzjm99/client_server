@@ -49,19 +49,19 @@ namespace BanDoNoiThat.Controllers
                 }
                 else if (result == 0)
                 {
-                    ModelState.AddModelError("", "Tài khoản không tồn tại.");
+                    ModelState.AddModelError("", "Your account doesn't exist");
                 }
                 else if (result == -1)
                 {
-                    ModelState.AddModelError("", "Tài khoản đang bị khoá.");
+                    ModelState.AddModelError("", "Your account is locked");
                 }
                 else if (result == -2)
                 {
-                    ModelState.AddModelError("", "Mật khẩu không đúng.");
+                    ModelState.AddModelError("", "Your password is wrong");
                 }
                 else if (result == -3)
                 {
-                    ModelState.AddModelError("", "Tài khoản của bạn không có quyền đăng nhập.");
+                    ModelState.AddModelError("", "Your account doesn't have this permission");
                 }
                 else if (result == -4)
                 {
@@ -69,7 +69,7 @@ namespace BanDoNoiThat.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "đăng nhập không đúng.");
+                    ModelState.AddModelError("", "Wrong sign in");
                 }
             }
             return View(model);
