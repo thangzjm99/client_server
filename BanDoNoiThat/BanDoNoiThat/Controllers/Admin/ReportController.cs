@@ -20,9 +20,21 @@ namespace BanDoNoiThat.Controllers.Admin
         {
 
 
-            var model = new ProductDao().Report_all();
-			
+            var model = new ReportDao().Report_all();
+            ViewBag.ImportReport = TempData["import_report"];
 			return View(model);
+
+        }
+        [HttpPost]
+        
+        public ActionResult ImportReport()
+        {
+
+            DateTime start_date =DateTime.Parse(Request.Form["ImportStartDate"].ToString());
+            DateTime end_date = DateTime.Parse(Request.Form["ImportEndDate"].ToString());
+            var import_report = new ReportDao();
+            TempData["import_report"]  = import_report.Import_Report(start_date,end_date);
+            return RedirectToAction("Index","Report");
         }
     }
 }

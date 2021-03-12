@@ -147,6 +147,7 @@
     <Compile Include="DAO\OrderDao.cs" />
     <Compile Include="DAO\OrderDetailDao.cs" />
     <Compile Include="DAO\ProductDao.cs" />
+    <Compile Include="DAO\ReportDao.cs" />
     <Compile Include="DAO\UserDao.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -155,6 +156,7 @@
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Import.cs" />
+    <Compile Include="Models\ImportReport.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\Order.cs" />
@@ -175,6 +177,39 @@
     <Content Include="Content\Admin_Template\charts.html" />
     <Content Include="Content\Admin_Template\css\sb-admin-2.css" />
     <Content Include="Content\Admin_Template\css\sb-admin-2.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.bootstrap.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.foundation.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.foundation.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.jqueryui.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.semanticui.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\dataTables.semanticui.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\jquery.dataTables.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\css\jquery.dataTables.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\images\sort_asc.png" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\images\sort_asc_disabled.png" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\images\sort_both.png" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\images\sort_desc.png" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\images\sort_desc_disabled.png" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.bootstrap.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.bootstrap.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.bootstrap4.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.foundation.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.foundation.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.jqueryui.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.jqueryui.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.semanticui.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\dataTables.semanticui.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\jquery.dataTables.js" />
+    <Content Include="Content\Admin_Template\DataTables\DataTables-1.10.24\js\jquery.dataTables.min.js" />
+    <Content Include="Content\Admin_Template\DataTables\datatables.css" />
+    <Content Include="Content\Admin_Template\DataTables\datatables.js" />
+    <Content Include="Content\Admin_Template\DataTables\datatables.min.css" />
+    <Content Include="Content\Admin_Template\DataTables\datatables.min.js" />
     <Content Include="Content\Admin_Template\forgot-password.html" />
     <Content Include="Content\Admin_Template\gulpfile.js" />
     <Content Include="Content\Admin_Template\img\undraw_posting_photo.svg" />
@@ -2239,6 +2274,7 @@
     <Content Include="Views\Order_detail\Edit.cshtml" />
     <Content Include="Views\Order_detail\Index.cshtml" />
     <Content Include="Views\Report\Index.cshtml" />
+    <Content Include="Views\Report\Import_Report.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

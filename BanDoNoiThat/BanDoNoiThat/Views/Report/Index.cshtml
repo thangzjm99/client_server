@@ -1,9 +1,11 @@
-﻿@using BanDoNoiThat.Models 
+﻿@using BanDoNoiThat.Models
 @model List<ReportAll>
+
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Admin_Layout.cshtml";
-    
+    var ImportReport = (List<BanDoNoiThat.Models.ImportReport>)ViewBag.ImportReport;
+
 
 }
 
@@ -15,10 +17,9 @@
     <!-- Page Heading -->
     <h1 class="h3 mb-2 text-gray-800">Overall Information</h1>
     <p class="mb-4">Overall Information</p>
-
-    <!-- DataTales Example -->
+    <!-- Overall infor -->
     <div class="card shadow mb-4">
-        
+
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -43,7 +44,7 @@
                         </tr>
                     </tfoot>
                     <tbody>
-                        @foreach ( var item  in Model)
+                        @foreach (var item in Model)
                         {
                             <tr>
 
@@ -53,15 +54,93 @@
                                 <td>@item.sell_price</td>
                                 <td>@item.import_quantity</td>
                                 <td>@item.import_price</td>
-                                
+
 
                             </tr>
                         }
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <hr />
+    <p class="mb-4">Overall Information</p>
+
+
+    <form action="/Report/ImportReport" method="post">
+        <div class="row">
+            <div class="form-group col-4">
+                <label>Start date</label>
+                <input type="date" name="ImportStartDate" class="form-control">
+
+            </div>
+            <div class="form-group col-4">
+                <label>End date</label>
+                <input type="date" name="ImportEndDate" class="form-control">
+            </div>
+            <div class="form-group col-2">
+
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </div>
+
+        </div>
+
+
+    </form>
+    <!-- Import -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="table2excel" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+
+                            <th>Company Name</th>
+                            <th>Company Email</th>
+                            <th>Company Phone</th>
+                            <th>Total Import Quantity</th>
+                            <th>Total Import Price</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Company Email</th>
+                            <th>Company Phone</th>
+                            <th>Total Import Quantity</th>
+                            <th>Total Import Price</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @if (ImportReport == null)
+                        {
+
+                        }
+                        else
+                        {
+                            foreach (var item in ImportReport)
+                            {
+                                <tr>
+
+
+                                    <td>@item.name</td>
+                                    <td>@item.email</td>
+                                    <td>@item.phone</td>
+                                    <td>@item.import_quantity</td>
+                                    <td>@item.import_price</td>
+
+
+                                </tr>
+                            }
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
 
 </div>
 
@@ -84,3 +163,7 @@
 
 <!-- Page level custom scripts -->
 <script src="~/Content/Admin_Template/js/demo/datatables-demo.js"></script>
+
+
+
+

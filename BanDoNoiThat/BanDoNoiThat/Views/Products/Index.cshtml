@@ -4,13 +4,13 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Admin_Layout.cshtml";
 }
-
+<link href="~/Content/Admin_Template/DataTables/datatables.css" rel="stylesheet" />
 <h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table class="table" >
     <tr>
         <th>
             Category
@@ -63,62 +63,65 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category.name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.code)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.slug)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.overview)
-        </td>
-        <td>
-            <img src="~/Images/@item.image" style="width : 300px"/>
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.detail)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.unit)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.remain_quantity)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.sale)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.star)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_stock)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.is_active)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.created_at)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.slug)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.overview)
+            </td>
+            <td>
+                <img src="~/Images/@item.image" style="width : 300px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.detail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.unit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.remain_quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.star)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_active)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.created_at)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+            </td>
+        </tr>
+    }
 
 </table>
+
+
