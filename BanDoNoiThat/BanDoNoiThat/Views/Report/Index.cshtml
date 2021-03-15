@@ -5,6 +5,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Admin_Layout.cshtml";
     var ImportReport = (List<BanDoNoiThat.Models.ImportReport>)ViewBag.ImportReport;
+    var SellingReport = (List<BanDoNoiThat.Models.SellingReport>)ViewBag.SellingReport;
 
 
 }
@@ -63,8 +64,10 @@
             </div>
         </div>
     </div>
+
+    
     <hr />
-    <p class="mb-4">Overall Information</p>
+    <p class="mb-4">Import Report</p>
 
 
     <form action="/Report/ImportReport" method="post">
@@ -129,6 +132,83 @@
                                     <td>@item.phone</td>
                                     <td>@item.import_quantity</td>
                                     <td>@item.import_price</td>
+
+
+                                </tr>
+                            }
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <hr />
+    <p class="mb-4">Selling Report</p>
+
+
+    <form action="/Report/SellingReport" method="post">
+        <div class="row">
+            <div class="form-group col-4">
+                <label>Start date</label>
+                <input type="date" name="SellingStartDate" class="form-control">
+
+            </div>
+            <div class="form-group col-4">
+                <label>End date</label>
+                <input type="date" name="SellingEndDate" class="form-control">
+            </div>
+            <div class="form-group col-2">
+
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </div>
+
+        </div>
+
+
+    </form>
+    <!-- Import -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="table2excel" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+
+                            <th>Product Name</th>
+                            <th>Product Code</th>
+                            <th>Total Selling Quantity</th>
+                            <th>Total Selling Price</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Code</th>
+                            <th>Total Selling Quantity</th>
+                            <th>Total Selling Price</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @if (SellingReport == null)
+                        {
+
+                        }
+                        else
+                        {
+                            foreach (var item in SellingReport)
+                            {
+                                <tr>
+
+
+                                    <td>@item.name</td>
+                                    <td>@item.code</td>
+                                    <td>@item.selling_amount</td>
+                                    <td>@item.selling_price</td>
+                                   
 
 
                                 </tr>

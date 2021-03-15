@@ -89,5 +89,37 @@ namespace BanDoNoiThat.DAO
 
 
         }
+
+        public List<SellingReport> Selling_Report(DateTime start,DateTime end)
+        {
+            var result = from Product in db.Products
+                         from A in (
+                             (from Order_detail in db.Order_detail
+                              where
+       Order_detail.created_at >= start && Order_detail.created_at <= end
+                              group Order_detail by new
+                              {
+                                  Order_detail.product_id
+                              } into g
+                              select new
+                              {
+                                  g.Key.product_id,
+                                  selling_amount = g.Sum(p => p.amount),
+                                  selling_price = (double?)g.Sum(p => p.total_price)
+                              }))
+                         where
+                           Product.id == A.product_id
+                         select new SellingReport
+                         {
+                             name = Product.name,
+                             code = Product.code,
+                             selling_amount = A.selling_amount,
+                             selling_price = A.selling_price
+                         };
+
+            return result.ToList();
+
+
+        }
     }
 }

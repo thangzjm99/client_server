@@ -207,16 +207,16 @@ namespace BanDoNoiThat.Controllers.Client
                     if(item.Quantity <= remain_quantity)
                     {
                         var orderDetail = new Order_detail();
+                        orderDetail.created_at = DateTime.Now;
                         orderDetail.product_id = item.Product.id;
                         orderDetail.order_id = id;
-                        orderDetail.total_price = item.Product.price;
+                        orderDetail.total_price = item.Product.price*item.Quantity;
                         orderDetail.amount = item.Quantity;
                         detailDao.Insert(orderDetail);
                         db.Products.Find(item.Product.id).remain_quantity -= item.Quantity;
                         db.SaveChanges();
                     }
                     
-                  
 
                 }
 

@@ -22,7 +22,8 @@ namespace BanDoNoiThat.Controllers.Admin
 
             var model = new ReportDao().Report_all();
             ViewBag.ImportReport = TempData["import_report"];
-			return View(model);
+            ViewBag.SellingReport = TempData["selling_report"];
+            return View(model);
 
         }
         [HttpPost]
@@ -35,6 +36,16 @@ namespace BanDoNoiThat.Controllers.Admin
             var import_report = new ReportDao();
             TempData["import_report"]  = import_report.Import_Report(start_date,end_date);
             return RedirectToAction("Index","Report");
+        }
+
+        public ActionResult SellingReport()
+        {
+
+            DateTime start_date = DateTime.Parse(Request.Form["SellingStartDate"].ToString());
+            DateTime end_date = DateTime.Parse(Request.Form["SellingEndDate"].ToString());
+            var selling_report = new ReportDao();
+            TempData["selling_report"] = selling_report.Selling_Report(start_date, end_date);
+            return RedirectToAction("Index", "Report");
         }
     }
 }
