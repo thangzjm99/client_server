@@ -116,7 +116,7 @@ namespace BanDoNoiThat.Controllers.Client
         {
             List<Category> categoryList = dbModel.Categories.ToList();
             ViewBag.categoryList = categoryList;
-            List<Product> productList = dbModel.Products.Where(x => x.id_category == id).ToList();
+            List<Product> productList = dbModel.Products.Where(x => x.id_category == id).Where(x=>x.is_active==true).ToList();
             ViewBag.productList = productList;
             return View();
 
@@ -155,7 +155,7 @@ namespace BanDoNoiThat.Controllers.Client
         public ActionResult Product(string searchKey, string searchBy)
         {
 
-            var products = dbModel.Products.Include(x => x.Category).OrderByDescending(a=>a.created_at);
+            var products = dbModel.Products.Where(x=>x.is_active==true).Include(x => x.Category).OrderByDescending(a=>a.created_at);
             if (!String.IsNullOrEmpty(searchKey))
             {
                 if (searchBy == "all")

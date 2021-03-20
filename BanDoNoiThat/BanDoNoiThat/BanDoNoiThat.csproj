@@ -213,6 +213,7 @@
     <Content Include="Content\Admin_Template\DataTables\datatables.min.js" />
     <Content Include="Content\Admin_Template\forgot-password.html" />
     <Content Include="Content\Admin_Template\gulpfile.js" />
+    <Content Include="Content\Admin_Template\img\admin.png" />
     <Content Include="Content\Admin_Template\img\undraw_posting_photo.svg" />
     <Content Include="Content\Admin_Template\index.html" />
     <Content Include="Content\Admin_Template\js\demo\chart-area-demo.js" />
