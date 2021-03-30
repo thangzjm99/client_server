@@ -70,4 +70,4 @@
 
     }
 }
-cart.init();
+cart.init();        
